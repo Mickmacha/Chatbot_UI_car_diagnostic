@@ -1,0 +1,281 @@
+{"intents":[
+    {"tag": "starting issue",
+    "patterns": ["Car Clicks trying to start", "Doesnt start"],
+    "responses": ["Your battery could be dead! Try to recharge the battery if does not solve your issue could be mulible things like starter, bad cable, or blown fuse seek mechanic help. "]
+    },
+    {"tag": "suspension",
+    "patterns": ["Car is riding rough", "My car vibrates when going on the freeway", "My car is vibrating in the front"],
+    "responses": ["Sounds like your going to need a tire balanace first in most cases when there doing the job they will also inform you if you need to replace some suspension parts."]
+    },
+   
+   {"tag": "alignment",
+    "patterns": [
+        "Car pulls to one side",
+        "Car drifts to one side",
+        "Car veers to one side",
+        "Car pulls to the right",
+        "Car pulls to the left",
+        "Car drifts to the right",
+        "Car drifts to the left",
+        "Car veers to the right",
+        "Car veers to the left",
+        "Car pulls to the right when braking",
+        "Car pulls to the left when braking",
+        "Car drifts to the right when braking",
+        "Car drifts to the left when braking",
+        "Car veers to the right when braking",
+        "Car veers to the left when braking",
+        "Car pulls to the right when accelerating",
+        "Car pulls to the left when accelerating",
+        "Car drifts to the right when accelerating",
+        "Car drifts to the left when accelerating",
+        "Car veers to the right when accelerating",
+        "Car veers to the left when accelerating",
+        "Car pulls to the right when turning",
+        "Car pulls to the left when turning",
+        "Car drifts to the right when turning",
+        "Car drifts to the left when turning",
+        "Car veers to the right when turning",
+        "Car veers to the left when turning"
+    ],
+    "responses":    [
+        "If your car pulls to one side, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to one side, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to one side, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the right, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the left, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the right, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the left, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the right, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the left, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the right when braking, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the left when braking, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the right when braking, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the left when braking, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the right when braking, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the left when braking, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the right when accelerating, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the left when accelerating, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the right when accelerating, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the left when accelerating, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the right when accelerating, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the left when accelerating, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the right when turning, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car pulls to the left when turning, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the right when turning, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car drifts to the left when turning, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the right when turning, it could be due to a problem with the alignment. Have you had your wheels aligned recently?",
+        "If your car veers to the left when turning, it could be due to a problem with the alignment. Have you had your wheels aligned recently?"
+    ]},
+    {"tag": "Low fuel mileage",
+    "patterns": [
+        "Low fuel mileage",
+        "Low fuel efficiency",
+        "Low gas mileage",
+        "Low fuel economy",
+        "Low MPG",
+        "Low miles per gallon",
+        "My car wasting a lot of fuel",
+        "My car is burning more fuel then what it was",
+        "I dont know why my car is burning more fuel then it is"
+    ],
+    "responses":[  
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel injectors checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel pressure regulator checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel pump checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel filter checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel lines checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel tank drained and refilled recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel sending unit checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel gauge checked recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel injectors cleaned recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel pressure regulator cleaned recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel pump cleaned recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel filter cleaned recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel lines cleaned recently?",
+        "If your car is burning more fuel than it used to, it could be due to a problem with the fuel system. Have you had your fuel tank drained and refilled"
+    ]},
+    {"tag": "Engine misfire",
+    "patterns": [
+        "Engine misfire",
+        "Engine misfiring",
+        "Engine is misfiring",
+        "Engine is misfire"],
+    "responses":[
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your spark plugs checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your spark plug wires checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your spark plug boots checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your spark plug caps checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition coil checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition module checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition switch checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition key checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock cylinder checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock assembly checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock housing checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock switch checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock actuator checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock actuator motor checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock actuator rod checked recently?",
+        "If your engine is misfiring, it could be due to a problem with the ignition system. Have you had your ignition lock actuator cable checked recently?"]
+    },
+    {"tag": "exhaust smoke",
+    "patterns": [
+    "smoke is coming out of my exhaust",
+    "Theres a lot of smoke coming out of my exhaust",
+    "Why is there smoke coming out of my exhaust",
+    "exhaust smoke"],
+    "responses":[
+
+    "White or Grey Smoke: White smoke indicates that the coolant is being combusted along with the fuel and there is a leakage somewhere in the Engine block, cylinder head and head gasket.  Blue Smoke: Blue smoke indicates that there is a leakage in the valve seals or guides or the piston rings have worn out, which are causing the engine oil to penetrate into the combustion chamber which is causing the oil to burn along with the fuel. Hence Causing Blue Smoke.  Black Smoke: This means that excessive fuel is being burnt in the combustion chambers due to a leak in the fuel injector, a stuck fuel pressure regulator or a restriction in the fuel combustion pipe. This usually happens with relatively older cars and in such situations, it is very crucial to get the leaks checked from a specialised mechanic.",
+    "White smoke can indicate a few different issues, such as a blown head gasket or a cracked engine block. We recommend having your vehicle inspected by a qualified mechanic as soon as possible.",
+    "Blue smoke can be a sign of oil burning in the engine, which could be caused by worn piston rings or other issues. A mechanic can diagnose the problem and suggest a course of action.",
+    "Black smoke can be caused by an overly rich fuel mixture or a clogged air filter. A mechanic can diagnose and fix the issue to improve your vehicle's performance and fuel efficiency."
+    ]},
+    {"tag": "Low engine oil level",
+    "patterns": ["why am I getting low engine oil level"],
+    "responses": ["You could have a leak! But engine do burn oil,Low engine oil level can cause your engine to underperform significantly. Something which is again caused due to delayed car service and aggressive driving. "]
+    },
+    {"tag": "squealing brakes",
+    "patterns": ["My brakes keep making a noise", "Why do my brakes keep squealing"],
+    "responses": ["It is primarily caused by worn-off brake pads. Ignoring squealing brakes is not good, as less responsive brakes can even lead to severe accidents. Hence as soon as you hear your brakes going all high pitched, get your brake pads replaced from your trusted car service partner Mechanic."]
+    },
+    {"tag": "low ac cooling",
+    "patterns": ["my ac is not working anymore", "why isnt my ac not working anymore", "my car blowing hot air its not getting cold anymore"],
+    "responses": ["What usually affects the cooling of the car AC is an AC gas leakage. Other factors include a Clogged or broken Compressor. We recommend you to get your car AC serviced from specialised technicians who can fix such issues in no time."]
+    },
+    {"tag": "engine overheating",
+    "patterns": ["My car is overheating", "my engine overheating"],
+    "responses": ["Check coolant level Warning! Let the vehilce to cool down then check it. If it keeps overheating the next thing would be thermostat, if you have no proir experience take it to professional help."]
+    },
+   
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "What's up"
+        ],
+        "responses": [
+            "Hello! How can I assist you with your car diagnostics today?",
+            "Hi there! What can I help you with in regards to your car?",
+            "Hey, what brings you here today? Car troubles?"
+        ]
+    },
+    {
+        "tag": "engine_start",
+        "patterns": [
+            "My car won't start",
+            "The engine won't turn over",
+            "Car won't crank",
+            "Car won't start",
+            "Engine won't start",
+            "Car won't turn over"
+        ],
+        "responses": [
+            "There could be a few reasons why your car won't start. Have you checked the battery?",
+            "If your car won't start, it's likely an issue with the battery or alternator. When was the last time you had them checked?",
+            "A common issue with cars not starting is a bad starter motor. Have you checked that?",
+            "If your car won't start, it's possible that the fuel pump or ignition system is malfunctioning. Have you noticed any other symptoms?"
+        ]
+    },
+    {
+        "tag": "battery",
+        "patterns": [
+            "My battery is dead",
+            "Battery died",
+            "Car won't start because of battery",
+            "Battery not holding a charge"
+        ],
+        "responses": [
+            "If your battery is dead, you may need to jumpstart your car. Do you have jumper cables and another car to help with this?",
+            "A dead battery can be caused by a number of issues. Have you had your battery tested recently?",
+            "If your battery is not holding a charge, it's likely time to replace it. How old is your current battery?"
+        ]
+    },
+    {
+        "tag": "alternator",
+        "patterns": [
+            "My alternator is bad",
+            "Alternator problems",
+            "Car battery not charging",
+            "Battery light on",
+            "Dimming headlights"
+        ],
+        "responses": [
+            "If your alternator is bad, it could be causing issues with your battery charging properly. Have you noticed any other symptoms?",
+            "If your battery light is on, it could be a sign that your alternator is failing. Have you had your alternator tested?",
+            "Dimming headlights can be a sign of a failing alternator. When was the last time you had your car's electrical system checked?"
+        ]
+    },
+    {
+        "tag": "starter_motor",
+        "patterns": [
+            "My starter motor is bad",
+            "Car won't turn over",
+            "Car makes clicking sound when starting",
+            "Starter solenoid problems",
+            "Car cranks but won't start"
+        ],
+        "responses": [
+            "If your car won't turn over, it's possible that the starter motor is bad. Have you had it tested?",
+            "A clicking sound when starting can be a sign of a failing starter motor. Have you noticed any other symptoms?",
+            "If your car cranks but won't start, it's possible that the starter solenoid is malfunctioning. Have you checked that?",
+            "A bad starter motor can cause a number of issues with your car starting properly. When was the last time you had it checked?"
+        ]
+    },
+    {
+        "tag": "ignition_system",
+        "patterns": [
+            "Car won't start because of ignition problems",
+            "Ignition coil problems",
+            "Spark plugs not firing",
+            "Car won't start because of spark plugs",
+            "Car won't start because of ignition coil"
+        ],
+        "responses": [
+            "If your car won't start due to ignition problems, it could be an issue with the ignition coil or spark plugs. Have you had them checked?",
+            "If your spark plugs are not firing, it could be due to a number of issues. Have you had them tested?",
+            "If your ignition coil is bad, it could be causing issues with your car starting properly. Have you had it tested?",
+            "If your car won't start due to ignition problems, it could be an issue with the ignition coil or spark plugs. Have you had them checked?",
+            "If your spark plugs are not firing, it could be due to a number of issues. Have you had them tested?",
+            "If your ignition coil is bad, it could be causing issues with your car starting properly. Have you had it tested?",
+            "If your car won't start due to ignition problems, it could be an issue with the ignition coil or spark plugs. Have you had them checked?",
+            "If your spark plugs are not firing, it could be due to a number of issues. Have you had them tested?",
+            "If your ignition coil is bad, it could be causing issues with your car starting properly. Have you had it tested?",
+            "If your car won't start due to ignition problems, it could be an issue with the ignition coil or spark plugs. Have you had them checked?",
+            "If your spark plugs are not firing, it could be due to a number of issues. Have you had them tested?",
+            "If your ignition coil is bad, it could be causing issues with your car starting properly. Have you had it tested?",
+            "If your car won't start due to ignition problems, it could be an issue with the ignition coil or spark plugs. Have you had them checked?",
+            "If your spark plugs are not firing, it could be due to a number of issues. Have you had them tested?",
+            "If your ignition coil is bad, it could be causing issues with your car starting properly. Have you had it tested?"
+        ]
+    },
+    {
+    "tag": "fuel_system",
+    "patterns": [
+    "Car won't start because of fuel problems",
+    "Fuel pump issues",
+    "Car stalls while driving",
+    "Engine misfires",
+    "Fuel leaks"
+    ],
+    "responses": [
+    "If your car won't start due to fuel problems, it could be an issue with the fuel pump or fuel injectors. Have you had them checked?",
+    "A failing fuel pump can cause a number of issues with your car's performance. When was the last time you had it replaced?",
+    "If your car stalls while driving, it could be an issue with the fuel system. Have you checked for any fuel leaks?",
+    "Engine misfires can be caused by a number of issues, including problems with the fuel system. Have you noticed any other symptoms?",
+    "If you have noticed any fuel leaks, it's important to get them fixed as soon as possible to avoid any safety hazards. Have you had your fuel lines checked recently?",
+    "A clogged fuel filter can also cause issues with your car's performance. Have you checked or replaced your fuel filter?",
+    "If you are experiencing decreased fuel efficiency, it could be due to a problem with the fuel system. Have you had your fuel injectors cleaned?",
+    "If you are smelling gasoline inside the car, it could be a sign of a fuel leak. Have you noticed any unusual smells?",
+    "Old or contaminated fuel can cause a number of issues with your car's performance. When was the last time you had your fuel tank drained and refilled?",
+    "If your car is experiencing rough idling, it could be due to problems with the fuel system. Have you had your fuel pressure regulator checked?",
+    "A malfunctioning fuel gauge can also be a sign of a fuel system issue. Have you had your fuel sending unit tested?",
+    "If your car is hesitating or sputtering when you accelerate, it could be due to problems with the fuel system. Have you had your fuel injectors checked for clogs or leaks?",
+    "If you are experiencing engine knocking or pinging, it could be due to problems with the fuel octane level. Have you been using the recommended fuel for your car?",
+    "If you have noticed any fuel leaks, it's important to get them fixed as soon as possible to avoid any safety hazards. Have you had your fuel lines checked recently?"
+    ]
+    }
+]}
